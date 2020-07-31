@@ -1,0 +1,250 @@
+@import url(
+  ‘https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap’
+);
+/* Variables */
+:root {
+  --black-color: #1d1d1d;
+}
+/* Variables */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-family: ‘Open Sans’, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--black-color);
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 10px;
+  list-style: none;
+}
+
+nav a {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: var(--black-color);
+  border-radius: 50px;
+  padding: 6px;
+}
+
+main {
+  margin-bottom: 81px;
+}
+
+section {
+  margin-top: 63px;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 68px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.home h2 {
+  margin-top: 0;
+  margin-bottom: 29px;
+  font-size: 48px;
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.products {
+  background-image: url('../assets/semicircle@2x.png');
+  background-size: cover;
+  background-position: center top;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.product {
+  padding: 10px;
+}
+
+.product .content {
+  border-left: 1px solid var(--black-color);
+  border-right: 1px solid var(--black-color);
+  height: 360px;
+  width: 230px;
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content h1 {
+  width: 82px;
+  margin-top: 0;
+  font-size: 12px;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.content button {
+  width: 233px;
+  height: 41px;
+  background-color: var(--black-color);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+}
+
+.content button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.our-favorites h2 {
+  margin-top: 0;
+  margin-bottom: 21px;
+  font-size: 48px;
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.our-favorites .favorites-container {
+  background-image: url('../assets/favorites-background@2x.png');
+  background-size: cover;
+  background-position: center;
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.favorites-container .favorite-item {
+  display: flex;
+  padding: 20px;
+}
+
+.favorites-container .favorite-item div {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.favorites-container .favorite-item h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-top: 0;
+}
+
+.favorites-container .favorite-item button {
+  width: 233px;
+  height: 41px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  margin: 0;
+}
+
+.favorites-container .favorite-item button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.favorites-container .favorite-item img {
+  border: 1px solid var(--black-color);
+  width: 325px;
+  height: 325px;
+}
+
+.others h2 {
+  margin-top: 0;
+  margin-bottom: 21px;
+  font-size: 48px;
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.others .others-container {
+  display: flex;
+  justify-content: center;
+}
+
+.others-container .others-item {
+  width: 280px;
+  padding-left: 20px;
+}
+
+.others-item img {
+  width: 280px;
+  border: 1px solid var(--black-color);
+}
+
+.others-item p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.others-item button {
+  width: 134px;
+  height: 27px;
+  background-color: var(--black-color);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+}
+
+.others-item button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid var(--black-color);
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  border-top: 1px solid var(--black-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: var(--black-color);
+  border-radius: 50px;
+}

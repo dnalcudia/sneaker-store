@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/media-queries.css">
+    <link rel="stylesheet" href="./css/animation.css">
     <title>sneakers.com</title>
   </head>
   <body>
-    <nav>
+    <nav class="fadeInDown">
       <a href="">sneakers.com</a>
       <div>
         <ul>
@@ -17,37 +21,92 @@
       </div>
     </nav>
     <main>
-      <h1>Hey, let’s buy some sneakers</h1>
-      <h2>new releases</h2>
-      <div class="products">
-        <div class="product">
-          <div
-            class="content"
-            style="background-image: url(assets/img/teni1@2x.png);"
-          >
-            <h1>Nike ISPA</h1>
+      <section class="home">
+        <h1 class="fadeIn">Hey, let’s buy some sneakers</h1>
+        <h2 class="fadeIn">new releases</h2>
+        <div class="products">
+          <div class="product fadeInUp">
+            <div
+              class="content"
+              style="background-image: url(assets/img/teni1@2x.png);"
+            >
+              <h1>Nike ISPA</h1>
+              <button>Buy it now</button>
+            </div>
+          </div>
+          <div class="product fadeInUp">
+            <div
+              class="content"
+              style="background-image: url(assets/img/teni2@2x.png);"
+            >
+              <h1>Nike ISPA</h1>
+              <button>Buy it now</button>
+            </div>
+          </div>
+          <div class="product fadeInUp">
+            <div
+              class="content"
+              style="background-image: url(assets/img/teni3@2x.png);"
+            >
+              <h1>Nike ISPA</h1>
+              <button>Buy it now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="our-favorites">
+        <h2 data-aos="fade-down">our favorites</h2>
+        <div class="favorites-container">
+          <div>
+            <div class="favorite-item" data-aos="fade-left">
+              <img src="./assets/img/fav1.jpg" alt="" />
+              <div>
+                <h1>Overreact FK</h1>
+                <button>Buy it now</button>
+              </div>
+            </div>
+            <div class="favorite-item" data-aos="fade-left">
+              <img src="./assets/img/fav2.jpg" alt="" />
+              <div>
+                <h1>ISPA Road Warrior</h1>
+                <button>Buy it now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="others">
+        <h2 data-aos="fade-down">others</h2>
+        <div class="others-container">
+          <div class="others-item" data-aos="fade-up">
+            <img src="./assets/img/other1.jpg" alt="" />
+            <p>
+                ISPA
+Dry-Fit L/S Top
+            </p>
+            <button>Buy it now</button>
+          </div>
+          <div class="others-item" data-aos="fade-up">
+            <img src="./assets/img/other2.jpg" alt="" />
+            <p>
+                BODYSUIT
+            </p>
+            <button>Buy it now</button>
+          </div>
+          <div class="others-item" data-aos="fade-up">
+            <img src="./assets/img/other3.jpg" alt="" />
+            <p>
+                Nike ISPA Pants
+            </p>
             <button>Buy it now</button>
           </div>
         </div>
-        <div class="product">
-          <div
-            class="content"
-            style="background-image: url(assets/img/teni2@2x.png);"
-          >
-            <h1>Nike ISPA</h1>
-            <button>Buy it now</button>
-          </div>
-        </div>
-        <div class="product">
-          <div
-            class="content"
-            style="background-image: url(assets/img/teni3@2x.png);"
-          >
-            <h1>Nike ISPA</h1>
-            <button>Buy it now</button>
-          </div>
-        </div>
-      </div>
+      </section>
     </main>
+    <footer><a href="https://dnalcudia.github.io/portfolio/html/about.html" target="blank">about</a> <a href="https://twitter.com/dnalcudia" target="blank">tw</a> <a href="https://www.instagram.com/dnalcudia/" target="blank">ig</a></footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
   </body>
 </html>
