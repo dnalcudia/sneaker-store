@@ -1,0 +1,139 @@
+:root {
+  --col-width: 8.33333333333%;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.container .container-title {
+  margin-top: 81px;
+  margin-bottom: 65px;
+  font-size: 48px;
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 85px;
+}
+
+.col-1 {
+  width: var(--col-width);
+}
+
+.col-2 {
+  width: calc(var(--col-width) * 2);
+}
+
+.col-3 {
+  width: calc(var(--col-width) * 3);
+}
+
+.col-4 {
+  width: calc(var(--col-width) * 4);
+}
+
+.col-5 {
+  width: calc(var(--col-width) * 5);
+}
+
+.col-6 {
+  width: calc(var(--col-width) * 6);
+}
+
+.col-7 {
+  width: calc(var(--col-width) * 7);
+}
+
+.col-8 {
+  width: calc(var(--col-width) * 8);
+}
+
+.col-9 {
+  width: calc(var(--col-width) * 9);
+}
+
+.col-10 {
+  width: calc(var(--col-width) * 10);
+}
+
+.col-11 {
+  width: calc(var(--col-width) * 11);
+}
+
+.col-12 {
+  width: calc(var(--col-width) * 12);
+}
+
+[class*='col-'] {
+  padding: 10px;
+}
+
+main .product-img {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid var(--black-color);
+}
+
+.col-4 div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.col-4 div button {
+  margin-bottom: 15px;
+  width: 134px;
+  height: 27px;
+  background-color: var(--black-color);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+}
+
+.col-4 div button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid var(--black-color);
+}
+
+.col-8 h1 {
+  margin-top: 0px;
+  font-size: 40px;
+}
+
+.col-8 p {
+  font-size: 20px;
+  letter-spacing: 5px;
+  line-height: 33px;
+}
+
+.col-8 p a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 900px) {
+  .container .container-title {
+    padding-left: 20px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  [class*='col-'] {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
