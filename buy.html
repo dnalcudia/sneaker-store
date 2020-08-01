@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/product.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/media-queries.css" />
+    <link rel="stylesheet" href="./css/animation.css" />
+    <link rel="stylesheet" href="./css/buy.css" />
+    <title>sneakers.com</title>
+  </head>
+
+  <body>
+    <nav class="fadeInDown">
+      <a href="index.html">sneakers.com</a>
+      <div>
+        <ul>
+          <li><a href="#">faqs</a></li>
+          <li><a href="product.html">our products</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="pay fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="product">
+              <div
+                class="content"
+                style="background-image: url(assets/img/teni1@2x.png);"
+              >
+                <span class="product-price">$1350</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="row">
+              <div class="pay-box">
+                <form
+                  action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=75CXM2JLE3UTG"
+                  method="POST"
+                >
+                  <label for="name">Name</label>
+                  <br />
+                  <input
+                    type="text"
+                    placeholder=""
+                    name="first_name"
+                    class="data"
+                  />
+                  <br />
+                  <label for="mail">E-mail</label>
+                  <br />
+                  <input
+                    type="email"
+                    placeholder=""
+                    name="email"
+                    class="data"
+                  />
+                  <br />
+                  <label for="phone">Phone</label>
+                  <br />
+                  <input
+                    type="number"
+                    placeholder=""
+                    name="night_phone_a"
+                    class="data"
+                    min="1"
+                  />
+                  <input
+                    type="submit"
+                    class="submit-button"
+                    name="submit"
+                    value="Pay"
+                  />
+                </form>
+              </div>
+            </div>
+            <div class="row pay-extra-buttons-container">
+              <button class="pay-extra-button oxxo-button">
+                Pay with OXXO
+              </button>
+
+              <a class="pay-extra-button cancel-button" href="index.html">
+                Cancel
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="fadeInUp" style="position: absolute; bottom: 0;">
+      <a
+        href="https://dnalcudia.github.io/portfolio/html/about.html"
+        target="blank"
+        >about</a
+      >
+      <a href="https://twitter.com/dnalcudia" target="blank">tw</a>
+      <a href="https://www.instagram.com/dnalcudia/" target="blank">ig</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pay {
+  margin-top: 125px;
+  margin-bottom: 125px;
+}
+
+.pay-box {
+  border: 1px solid black;
+  padding: 10px;
+  width: 100%;
+}
+
+.pay-box .data {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 97%;
+  height: 43px;
+  border-radius: 2px;
+  border: 1px solid black;
+  font-size: 18px;
+  outline: none;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.product .product-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  width: 125px;
+  height: 30px;
+  background-color: var(--black-color);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+}
+
+.submit-button {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  width: 97%;
+  font-weight: bold;
+  height: 43px;
+  margin-top: 15px;
+}
+
+.pay-extra-buttons-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pay-extra-button {
+  cursor: pointer;
+  outline: none;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 20px;
+  width: 48%;
+  height: 43px;
+}
+
+.oxxo-button {
+  border: 5px solid #f5ad11;
+  color: white;
+  background-color: #e2211e;
+}
+
+.oxxo-button:hover {
+  text-decoration: underline;
+}
+
+.cancel-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+}
+
+.cancel-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.cancel-button:hover {
+  text-decoration: underline;
+}
