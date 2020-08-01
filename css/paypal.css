@@ -1,0 +1,24 @@
+body {
+  background-image: url(../assets/img/denis-big-4MTIEEVNcgg-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content-paypal {
+  margin-top: -400px;
+}
+
+.content-paypal h1 {
+  font-size: 40px;
+}
+
+.content-paypal a {
+  font-size: 25px;
+  color: white;
+}
